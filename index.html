@@ -6,6 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>You</h1>
+    <script>
+        let user = document.createElement("div");
+        let ul = document.createElement("ul");
+        let li = document.createElement("li");
+        user.appendChild(ul);
+        ul.appendChild(li);
+        li.innerHTML = "room";
+        console.log(ul);
+    </script>
 </body>
 </html>
